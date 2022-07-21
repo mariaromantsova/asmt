@@ -1,0 +1,174 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("./assets/bg/sky.jpg");
+  animation: bg 100s infinite;
+  font-family: cursive;
+}
+
+ul {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+h2,
+h3,
+h4 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+  cursor: default;
+}
+
+h4 {
+  margin: 5px;
+}
+
+h2 {
+  color: #b68120;
+}
+
+.heading {
+  font-style: italic;
+  color: #414ffe;
+}
+
+menu[role="tablist"] {
+  flex-wrap: wrap;
+}
+
+details summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+pre {
+  font-size: 0.9em;
+  margin: 15px !important;
+
+  code {
+    font-weight: inherit;
+    color: inherit;
+    padding: 0;
+    background-color: inherit;
+  }
+}
+
+code {
+  padding: 2px;
+  background-color: #b0b0b0;
+  font-weight: 600;
+  // color: #b917a6;
+  color: #633eb4;
+  border-radius: 4px;
+}
+
+.list {
+  &.wrap {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      margin: 5px;
+      background: #d8d59e;
+      cursor: default;
+    }
+  }
+}
+
+.marquee {
+  background-color: #262b3a !important;
+  height: 40px !important;
+}
+
+mark {
+  background-color: #d8d59e !important;
+}
+
+em {
+  text-decoration: underline;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.d-flex {
+  display: flex;
+  // align-items: baseline;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.v-visible {
+  visibility: visible;
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+
+.o-0 {
+  opacity: 0;
+}
+
+.o-100 {
+  opacity: 100%;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.font-small {
+  font-size: 0.8em;
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

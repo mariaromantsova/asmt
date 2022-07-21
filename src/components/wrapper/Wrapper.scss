@@ -1,0 +1,13 @@
+.window {
+  max-width: 760px;
+  font-size: 13px;
+
+  &-body {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow-y: auto;
+  }
+}
